@@ -1,0 +1,22 @@
+const teks ="zio alfinois";
+const hurufkecil = teks.toLowerCase();
+const hurufbesar = teks.toUpperCase();
+console.log(hurufkecil);
+console.log(hurufbesar);
+
+
+
+let mahasiswa =null;
+console.log(mahasiswa);
+
+mahasiswa = {
+    nama:'zio alfinois',
+    umur:15,
+    jurusan:'informatika',
+};
+console.log(mahasiswa);
+
+
+
+
+
