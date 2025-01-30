@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case Cara 2</title>
+</head>
+<body>
+    <script>
+        var nilai = prompt("input umur");
+        var grade = "";
+switch(true){
+    case nilai > 60:
+        grade = "lansia";
+        break;
+    case nilai > 18:
+        grade = "dewasa";
+        break;
+    case nilai > 13:
+        grade = "remaja";
+        break;
+    case nilai > 0:
+        grade = "anak-anak";
+        break;
+    default:
+        grade = "F";
+} document.write(grade)
+    </script>
+</body>
+</html>
